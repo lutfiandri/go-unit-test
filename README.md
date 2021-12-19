@@ -12,7 +12,7 @@ Nama|Keterangan
 -----|-----
 End to End Testing|Pengetesan seluruh app, termasuk frontend (tidak ada mock)
 Integration Testing|Pengetesan satu app (menggunakan mock server jika memakai service dari app lain)
-Unit Testing|Pengetesan unit terkicil (function) dalam dalam app
+Unit Testing|Pengetesan unit terkecil (function) dalam dalam app
 
 ## Unit Test
 
@@ -126,7 +126,7 @@ func TestMain(m *testing.M) {
 	// before
 	fmt.Println("===== sebelum semua test =====")
 
-    // run the tests
+	// run the tests
 	m.Run()
 
 	// after
